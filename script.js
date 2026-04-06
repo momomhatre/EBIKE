@@ -1,3 +1,4 @@
+
 let cart = JSON.parse(localStorage.getItem("rentals")) || [];
 
 function rentBike(name, price) {
@@ -72,3 +73,8 @@ function removeItem(index) {
 }
 
 updateCartCount();
+
+
+
+
+
