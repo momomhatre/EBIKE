@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Bike Rental System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>E-Bike Rental</h1>
+  <button onclick="goToCart()">Rentals (<span id="cart-count">0</span>)</button>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="C:\Users\lenovo\OneDrive\Desktop\EBIKE\3-2.png">
+    <h3>chetak</h3>
+    <p>₹100 / hour</p>
+    <button onclick="rentBike('Model X',100)">Rent Now</button>
+  </div>
+
+  <div class="card">
+    <img src="C:\Users\lenovo\OneDrive\Desktop\EBIKE\black.webp">
+    <h3>chetakY</h3>
+    <p>₹150 / hour</p>
+    <button onclick="rentBike('Model Y',150)">Rent Now</button>
+  </div>
+
+  <div class="card">
+    <img src="C:\Users\lenovo\OneDrive\Desktop\EBIKE\blog1-jan-2025-1.webp">
+    <h3>chetakZ</h3>
+    <p>₹200 / hour</p>
+    <button onclick="rentBike('Model Z',200)">Rent Now</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

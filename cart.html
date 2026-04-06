@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Rentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Your Rentals</h1>
+  <button onclick="goBack()">⬅ Back</button>
+</header>
+
+<div class="container">
+  <ul id="cart-items"></ul>
+
+  <h2 id="total"></h2>
+
+  <button onclick="clearCart()">Clear All</button>
+</div>
+
+<script src="script.js"></script>
+<script>
+  displayCart();
+</script>
+
+</body>
+</html>
